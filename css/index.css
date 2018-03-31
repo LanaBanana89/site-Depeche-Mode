@@ -1,0 +1,88 @@
+/* cбрасываем отступы внешние и внутренние*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*для тела выбираем семью и размер шрифта, цвет шрифта, основной цвет фона*/
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #404040; 
+  font-size: 1.2em;
+  background-color: #CFCFCF;
+  text-align: center;   
+ }
+
+/*для главного заголовка определяем шрифт, отступы между буквами и цвет*/
+.title {
+  font-family: 'Rubik Mono One', sans-serif;  
+  padding: .1em; 
+  font-size: 100px;
+  letter-spacing: 5px;
+  color: #404040; 
+  
+} 
+
+/*для главного заголовка определяем цвет фона*/
+header {
+  background-color: #DC93BD;	
+}
+
+/*для фото группы определяем цвет фона и внутренние отступы*/
+.group_photo {
+  background-color: #342D31;	
+  padding: 50px;	
+}
+
+/*для подзаголовков h2 определяем шрифт, внешние отступы сверху и снизу, отступы между буквами и цвет*/
+.small-title {
+  font-family: 'Rubik Mono One', sans-serif;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  letter-spacing: 10px;
+  color: #404040;  
+	
+}
+
+/*для имени участника группы устанавливаем размер шрифта и нижний внешний отступ*/
+.name {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+/*для каждого фото участника делаем рамку и отступы снизу от текста*/
+.singer {	
+  border: 35px solid #404040;
+  margin-bottom: 15px;	
+}
+
+/*для пунктов списка устанавливаем отображение в линию и выравнивание по верхнему краю*/
+ul.members li{
+	display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+/*для списка альбомов устанавливаем автоматическое выравнивание и внутренние отступы*/
+.album {
+	width: 250px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 20px;
+}
+
+/*для подвала устанавливаем цвет фона, толщину шрифта и отступы*/
+.footer {
+	background-color: #DC93BD;
+	font-weight: bold;
+	margin-top: 15px;
+	padding: 20px;
+	letter-spacing: 2px;
+}
+
+/*для заголовка "Студийные альбомы" устанавливаем выравнивание и ширину элемента*/
+h3 {
+	width: 300px;
+	margin: 0 auto;
+	text-align: left;
+}
