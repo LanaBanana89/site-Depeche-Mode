@@ -19,8 +19,7 @@ body {
   padding: .1em; 
   font-size: 100px;
   letter-spacing: 5px;
-  color: #404040; 
-  
+  color: #404040;   
 } 
 
 /*для главного заголовка определяем цвет фона*/
@@ -29,7 +28,7 @@ header {
 }
 
 /*для фото группы определяем цвет фона и внутренние отступы*/
-.group_photo {
+.group-photo {
   background-color: #342D31;	
   padding: 50px;	
 }
@@ -40,8 +39,7 @@ header {
   margin-top: 60px;
   margin-bottom: 40px;
   letter-spacing: 10px;
-  color: #404040;  
-	
+  color: #404040;  	
 }
 
 /*для имени участника группы устанавливаем размер шрифта и нижний внешний отступ*/
@@ -51,13 +49,13 @@ header {
 }
 
 /*для каждого фото участника делаем рамку и отступы снизу от текста*/
-.singer {	
+.singer-photo {	
   border: 35px solid #404040;
   margin-bottom: 15px;	
 }
 
 /*для пунктов списка устанавливаем отображение в линию и выравнивание по верхнему краю*/
-ul.members li{
+ul.members-group li{
 	display: inline-block;
     vertical-align: top;
     margin-left: 20px;
